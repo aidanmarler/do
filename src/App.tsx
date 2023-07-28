@@ -48,24 +48,24 @@ function App() {
   };
 
   return (
-    <div className="flex justify-center m-5">
+    <div className="flex justify-center m-15">
       <div className="flex flex-col items-center">
 
-        <div className="flex justify-between items-center w-full m-3">
+        <div className="flex justify-between items-center w-full m-5 mt-10">
           
-          <button name="Aidan Marler" className="p-2 h-9 w-9 bg-sky-600 hover:bg-sky-400 rounded-lg border border-slate-300 shadow-bl-s shadow-white hover:shadow-white hover:shadow-bl-h transition-all hover:translate-y-btn-h">
+          <button name="Aidan Marler" className="p-2 h-8 w-8 bg-sky-600 mx-14 hover:bg-sky-500 rounded-lg hover:scale-110 border border-slate-300 shadow-bl-s shadow-white hover:shadow-white hover:shadow-bl-h transition">
             <img src="src/assets/AM-logo.svg" className=""></img>
           </button>
 
-          <p className="text-white text-2xl">Do</p>
+          <p className="text-white text-3xl">Do</p>
           
-          <button className="p-2 bg-rose-500 rounded-lg border border-slate-300 shadow-rs-s hover:shadow-rs-h">
+          <button className="p-2 h-8 w-8 bg-rose-600 mx-14 hover:bg-rose-500 rounded-lg hover:scale-110 border border-slate-300 shadow-bl-s shadow-white hover:shadow-white hover:shadow-bl-h transition">
             <img src="src/assets/languages.svg" className=""></img>
           </button>
         
         </div>
 
-        <div className="bg-zinc-700 border border-zinc-700 shadow-sol-in p-10 flex flex-col gap-7 sm:w-[640px] rounded-3xl">
+        <div className="bg-zinc-700 border border-zinc-700 shadow-sol-in p-10 mb-14 mx-10 flex flex-col gap-7 sm:w-[640px] rounded-xl">
           <Container title={"Summary"}>
             <Summary tasks={tasks} />
           </Container>
